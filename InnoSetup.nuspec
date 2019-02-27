@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>InnoSetup-Nuget</id>
+    <version>5.6.1-a</version>
+    <title>InnoSetup-Nuget</title>
+    <authors>EquinoxLabs</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Unofficial InnoSetup distribution via Nuget.</description>
+  </metadata>
+  <files>
+    <file src="InnoSetup\*.*" target="lib" />
+  </files>
+</package>
