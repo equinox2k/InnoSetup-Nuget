@@ -10,7 +10,7 @@ build_script:
 - cmd: nuget pack InnoSetup.nuspec -OutputDirectory artifacts
 
 after_test:
-  - cmd: appveyor PushArtifact artifacts\*.nupkg
+  - cmd: appveyor PushArtifact artifacts/*.nupkg
 
 deploy:
   provider: NuGet
