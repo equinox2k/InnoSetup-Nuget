@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>EquinoxLabs.InnoSetup</id>
-    <version>5.6.1-a</version>
+    <version>5.6.1</version>
     <title>EquinoxLabs.InnoSetup</title>
     <authors>EquinoxLabs</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
