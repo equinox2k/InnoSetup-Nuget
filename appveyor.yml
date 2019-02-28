@@ -10,7 +10,7 @@ build_script:
 - cmd: nuget pack InnoSetup.nuspec -OutputDirectory artifacts
 
 after_test:
-  - cmd: appveyor PushArtifact "artifacts\EquinoxLabs.InnoSetup.5.6.1.nupkg"
+  - cmd: appveyor PushArtifact "artifacts\EquinoxLabs.InnoSetup.5.6.1.1.nupkg"
 
 deploy:
   provider: NuGet

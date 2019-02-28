@@ -2,14 +2,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>EquinoxLabs.InnoSetup</id>
-    <version>5.6.1</version>
+    <version>5.6.1.1</version>
     <title>EquinoxLabs.InnoSetup</title>
-    <authors>EquinoxLabs</authors>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <authors>EquinoxLabs, Jordan Russell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://www.jrsoftware.org/files/is/license.txt</licenseUrl>
     <description>Unofficial InnoSetup distribution via Nuget.</description>
+    <copyright>Jordan Russell {http://www.jrsoftware.org/}</copyright>
+    <language>en-US</language>
+    <tags>installer inno innosetup</tags>
   </metadata>
   <files>
-    <file src="InnoSetup\**\*.*" target="lib" />
+    <file src="InnoSetup\**\*.*" target="tools" />
   </files>
 </package>
